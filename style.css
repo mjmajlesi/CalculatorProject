@@ -1,0 +1,58 @@
+@font-face {
+    font-family: "Vazir";
+    src: url(./Vazir.woff);
+}
+*{
+    font-family: "Vazir" , sans-serif ;
+}
+.nav{
+    height: 80px;
+    background-color: #dde1e7;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.calculator{
+        width: 350px;
+        border-radius: 20px;
+        background: #dde1e7;
+        margin: 0 auto;
+        box-shadow: -5px -5px 9px rgba(255,255,255,0.45), 5px 5px 9px rgba(94,104,121,0.3);
+        padding: 45px;
+}
+.calculatorTop{
+    width: 100%;
+}
+.show{
+    border-radius: 10px;
+    height: 60px;
+    background: #dde1e7;
+    box-shadow: inset -5px -5px 9px rgba(255,255,255,0.45), inset 5px 5px 9px rgba(94,104,121,0.3);
+    border: 0;
+    color: rgb(116, 116, 116);
+    font-size: 2.5rem;
+    padding: 0 30px;
+}
+.buttons button{
+    cursor: pointer;
+    height: 60px;
+    width: 60px;
+    border: 0;
+    margin: 10px 12px;
+    font-size: 2rem;
+    border-radius: 50px;
+    background: #dde1e7;
+    box-shadow: -5px -5px 9px rgba(255,255,255,0.45), 5px 5px 9px rgba(94,104,121,0.3);
+    color: rgb(137, 137, 137);
+}
+  
+.buttons button:hover{
+    background: #dde1e7;
+    box-shadow: inset -5px -5px 9px rgba(255,255,255,0.45), inset 5px 5px 9px rgba(94,104,121,0.3);
+
+}
+.calculatorBody{
+    padding-top: 30px;
+    display: flex;
+}
