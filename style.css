@@ -24,7 +24,7 @@
 .calculatorTop{
     width: 100%;
 }
-.show{
+.show , .Show{
     border-radius: 10px;
     height: 60px;
     background: #dde1e7;
@@ -55,4 +55,9 @@
 .calculatorBody{
     padding-top: 30px;
     display: flex;
+}
+.Show{
+    font-size: 13px;
+    padding: 10px 0 0 20px;
+
 }

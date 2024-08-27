@@ -1,5 +1,7 @@
 let value = ""
+let result = ""
 let show = document.querySelector(".show")
+let showResult = document.querySelector(".showResult")
 const ButtonClick = (buton)=>{
     let text = buton.target.outerText
     if(text!=="="){
@@ -10,8 +12,10 @@ const ButtonClick = (buton)=>{
 };
 const Result = ()=>{
     try{
-        value = eval(value)
-        show.innerHTML = value
+        result = eval(value)
+        show.className = "Show"
+        showResult.innerHTML = result
+        value = ""
     }
     catch(error){
         value = "Error!"
